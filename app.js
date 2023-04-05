@@ -8,7 +8,7 @@ while (a != number){
     if (a > number){
         alert("your number is greater try guessing a smaller one!")
     }
-    if (a < number){
+    else if (a < number){
         alert("your number is smaller try guessing a bigger one!")
     }
     a = prompt("enter no once again , hope you'll grt it right this time ")
